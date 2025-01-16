@@ -17,3 +17,5 @@ console.log(3 - 3);
 
 console.log(typeof null); // object
 console.log(typeof undefined); // undefined
+
+//continue to learn new js data types.
