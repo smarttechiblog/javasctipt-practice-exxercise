@@ -19,3 +19,4 @@ console.log(typeof null); // object
 console.log(typeof undefined); // undefined
 
 //continue to learn new js data types.
+// 8. Object => {key: value}
