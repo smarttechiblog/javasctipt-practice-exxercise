@@ -59,6 +59,8 @@ let object = {"username" : "SmartTechi", "emailaddress": "smarttechiblog@gmail.c
  *      at the begining of the scope.
  */
 
+
+/** Example when variable declaration */
 // console.log(x); //output is undefined
 
 // var x = 5; 
@@ -73,6 +75,24 @@ let object = {"username" : "SmartTechi", "emailaddress": "smarttechiblog@gmail.c
 
 // x=5;
 // console.log(x); //output:5
+
+
+/*****Example of function declaration*********** */
+
+sayHello();
+
+function sayHello(){
+  console.log("Say Hello!!");
+}
+
+
+sayHai(); //TypeError: sayHai is not a function
+
+
+var sayHai = function(){
+  console.log("say hai!!");
+}
+
 
 
 
